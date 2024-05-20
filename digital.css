@@ -39,8 +39,9 @@ body {
     font-weight: var(--normal-font-weight);
     background-color: var(--bg-white);
 }
-#navbarmargin{
-    margin-left: 40rem;
+
+#navbarmargin {
+    margin-left: 34rem;
 }
 
 /* Custom CSS */
@@ -96,6 +97,12 @@ body {
 
 .header_wrapper .nav-item .nav-link.active {
     color: var(--text-dark-green);
+}
+
+.nav-link.active {
+    color: black;
+    font-size: larger;
+    font-weight: 500;
 }
 
 .header-scrolled {
@@ -901,7 +908,8 @@ body {
         flex-direction: column;
         gap: 1rem !important;
     }
-    #navbarmargin{
+
+    #navbarmargin {
         margin-left: 0rem;
     }
 }
@@ -1147,4 +1155,4 @@ body {
     .faq_wrapper .accordion-button {
         font-size: 18px;
     }
-} 
+}
