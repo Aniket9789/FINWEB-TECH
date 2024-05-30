@@ -343,23 +343,23 @@ section .cards .card:nth-child(3)::before {
 
 .main1 {
     flex: 1 1 300px;
-    max-width: 62%;
+    /* max-width: 62%; */
     background-color: #f9f9f9;
     border-radius: 10px;
     overflow: hidden;
     text-align: center;
-    margin-left: 33rem;
+    /* margin-left: 33rem; */
 }
 
 .main2 {
     flex: 1 1 300px;
     /* Adjust the width of each item */
-    max-width: 62%;
+    /* max-width: 62%; */
     background-color: #f9f9f9;
     border-radius: 10px;
     overflow: hidden;
     text-align: center;
-    margin-left: 1rem;
+    /* margin-left: 1rem; */
 }
 
 .about-lock {
@@ -412,7 +412,7 @@ section .cards .card:nth-child(3)::before {
     .main2 {
         flex-basis: 100%;
         width: 90%;
-        margin-left: 8.5rem;
+        /* margin-left: 8.5rem; */
 
     }
 
