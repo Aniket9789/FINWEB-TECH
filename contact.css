@@ -22,7 +22,8 @@
 .clearfix:after {
   clear: both;
 }
-#navbarmargin{
+
+#navbarmargin {
   margin-left: 40rem;
 }
 
@@ -381,7 +382,18 @@ select:focus {
   iframe {
     width: 100%;
   }
-  #navbarmargin{
+
+  #navbarmargin {
     margin-left: 0rem;
+  }
+
+  .boyimage {
+    width: 100% !important;
+    height: 100% !important;
+  }
 }
+
+.boyimage {
+  width: 600px;
+  height: 450px;
 }
