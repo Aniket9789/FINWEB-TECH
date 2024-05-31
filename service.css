@@ -447,6 +447,10 @@ i {
     border-radius: 50%;
 }
 
+.copy {
+    color: #ffffff;
+}
+
 @media screen and (min-width: 24.375em) {
     .legal .legal__links {
         margin-left: auto;
@@ -476,7 +480,16 @@ i {
     footer {
         margin-top: 80rem !important;
     }
-    .container{
+
+    .container {
         display: block;
+    }
+
+    #navbarmargin {
+        margin-left: 0rem !important;
+    }
+
+    .copy {
+        color: #ffffff;
     }
 }
